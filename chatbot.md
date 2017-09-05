@@ -1,37 +1,13 @@
-## Deepdive philosophy
+## NLP Based AI Systems - Text Analytics & Chatbots
 
-You can use the [editor on GitHub](https://github.com/deepdivesg/deepdivesg.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This workshop is aimed at gaining hands-on experience in developing intelligent text analysis platforms (for instance chatbots). AI based chatbots and text analytics platforms are gaining immense traction in today's technological ecosystem. Several domains use text processing to extract valuable insights from external latent sources. One such domain happens to be one of the most profitable sectors of our society - Banking and trading. Financial systems use intelligent text parsing systems to extract insights to develop predictive analytics. Another such emerging domain is healthcare. Health information systems depend hugely on structured text data which can be parsed to carry out automated prognosis and disease staging.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Duration: 3 days (9 hours)
+### Schedule: 19th September, 2017 - 21st September, 2017
+### Registration deadline: 10th September, 2017
 
-### Markdown
+## Agenda
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/deepdivesg/deepdivesg.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Day 1
+- Day 2
+- Day 3
