@@ -1,5 +1,13 @@
-title: Deepdive Singapore
-description: >
-  AI consultants
-show_downloads: false
-theme: jekyll-theme-cayman
+title: Bootstrap 4 Github Pages
+email: ""
+description: >- # this means to ignore newlines until "baseurl:"
+  A Bootstrap 4 start up project for Jekyll and Github Pages
+repository: "nicolas-van/bootstrap-4-github-pages"
+plugins:
+  - jekyll-feed
+header_pages:
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - update_boostrap.sh
