@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,900,900i');
+
+/* native doms */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: white;
+	background: #30323D; 
+}
+
+footer {
+	margin-top: 30px;
+}
+
+a, a:visited {
+	color: #45A9E8;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #E8C547;
+	text-decoration: none;
+}
+
+/* non-native doms */
+
+.logo {
+	height: 30px;
+}
+
+.container-heading {
+    padding: 10px;
+    background: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#main {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+#contact, #banner, #milestones {
+	background: #4D5061;
+	border-radius: 8px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#contact > #team {
+	margin-top: 30px;
+}
+
+#banner {
+	background: #f3f3f3;
+	border-radius: 0px;
+}
+
+#banner h1 {
+	font-style: italic;
+	font-weight: 500;
+	font-size: 50pt;
+	color: #10B758;
+}
+
+#banner ul > li {
+	font-size: 16pt;
+	color: #10B758 !important;
+}
+
+#banner ul > li > STRONG {
+	font-weight: 700;
+}
+
+#banner ul > li > span {
+	margin-left: 5px;
+}
+
+#milestones {
+	margin-bottom: 30px;
+	border-radius: 0px;
+}
+
+.milestone-stage {
+	background: #000;
+	border: 3px solid #FFF;
+	padding: 30px;
+	margin: 10px;
+	border-radius: 100% 100%;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	display: inline-table;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.milestone-stage.done {
+	background: #10B758;
+}
+
+.milestone-stage.active {
+	background: #d46007;
+}
+
+.milestone-stage-heading {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 18px;
+	border-bottom: 1px solid #FFF;
+	padding-bottom: 7px;
+	margin-bottom: 7px;
+}
+
+.milestone-stage-separator {
+    display: inline-table;
+    top: 50px;
+    position: relative;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 4px;
+    left: 3px;
+}
+
+.badge-warning {
+	padding: 10px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+.badge-warning:hover {
+	background-color: #30323D;
+}
+
+a > .badge-warning, a:visited  > .badge-warning {
+	color: #222;
+	text-decoration: none;
+}
+
+a:hover  > .badge-warning{
+	color: #FFF;
+	text-decoration: none;
+}
