@@ -1,4 +1,18 @@
+/* Imports and definitions */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,900,900i');
+
+@keyframes color {
+  0% {
+    background-color: #bd280f;
+  }
+  50% {
+    background-color: #d46007;
+  }
+  100 {
+    background-color: #bd280f;
+  }
+}
 
 /* native doms */
 
@@ -32,20 +46,17 @@ a:hover{
 .container-heading {
     padding: 10px;
     background: #000;
-    font-size: 30px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 400;
-    font-style: italic;
 }
 
 #main {
 	margin-top: 60px;
-	margin-bottom: 30px;
 }
 
 #contact, #banner, #milestones {
 	background: #4D5061;
-	border-radius: 8px;
 	padding: 20px;
 	box-sizing: border-box;
 }
@@ -67,7 +78,7 @@ a:hover{
 }
 
 #banner ul > li {
-	font-size: 16pt;
+	font-size: 12pt;
 	color: #10B758 !important;
 }
 
@@ -80,30 +91,34 @@ a:hover{
 }
 
 #milestones {
-	margin-bottom: 30px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	border-radius: 0px;
+	text-align: center;
 }
 
 .milestone-stage {
 	background: #000;
 	border: 3px solid #FFF;
 	padding: 30px;
-	margin: 10px;
+	margin: 11px;
 	border-radius: 100% 100%;
-	width: 200px;
-	height: 200px;
+	width: 180px;
+	height: 180px;
 	text-align: center;
 	display: inline-table;
-	margin-left: 0px;
-	margin-right: 0px;
+	font-size: 12px;
 }
 
 .milestone-stage.done {
-	background: #10B758;
+	border: 3px solid #10B758;
 }
 
 .milestone-stage.active {
-	background: #d46007;
+	background-color: #bd280f;
+	animation-name: color;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
 }
 
 .milestone-stage-heading {
@@ -113,6 +128,10 @@ a:hover{
 	border-bottom: 1px solid #FFF;
 	padding-bottom: 7px;
 	margin-bottom: 7px;
+}
+
+.done > .milestone-stage-heading {
+	border-bottom-color: #7ef7b2;
 }
 
 .milestone-stage-separator {
@@ -143,4 +162,10 @@ a > .badge-warning, a:visited  > .badge-warning {
 a:hover  > .badge-warning{
 	color: #FFF;
 	text-decoration: none;
+}
+
+#footer {
+	box-sizing: border-box;
+	padding: 30px;
+	background: #000;
 }
