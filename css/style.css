@@ -223,3 +223,15 @@ i.fa-linkedin {
 	padding: 10px;
 	text-transform: uppercase;
 }
+
+@media only screen and (max-width: 576px) { 
+
+	#banner-caption {
+		margin-top: -14px;
+	}	
+
+	.milestone-stage-separator {
+		display: none;
+	}
+
+}
