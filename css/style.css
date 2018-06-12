@@ -20,7 +20,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	color: white;
-	background: #30323D; 
 }
 
 footer {
@@ -55,18 +54,24 @@ a:hover{
 	margin-top: 60px;
 }
 
-#contact, #banner, #milestones {
-	background: #4D5061;
+#contact, #banner, #milestones, #stages {
+	background: #00000013;
 	padding: 20px;
 	box-sizing: border-box;
 }
 
+#contact {
+	padding: 0px;
+}
+
 #contact > #team {
-	margin-top: 30px;
+	margin: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #banner {
-	background: #f3f3f3;
+	background: #135ca54a;
 	border-radius: 0px;
 }
 
@@ -75,6 +80,10 @@ a:hover{
 	font-weight: 500;
 	font-size: 50pt;
 	color: #10B758;
+}
+
+#banner-caption {
+	background: #FFF;
 }
 
 #banner ul > li {
@@ -138,7 +147,7 @@ a:hover{
     display: inline-table;
     top: 50px;
     position: relative;
-    color: #fff;
+    color: #0062cc;
     font-weight: 900;
     letter-spacing: 4px;
     left: 3px;
@@ -168,4 +177,31 @@ a:hover  > .badge-warning{
 	box-sizing: border-box;
 	padding: 30px;
 	background: #000;
+}
+
+#stages {
+	color: #545454;
+}
+
+.stage {
+	margin-bottom: 20px;
+}
+
+.stage li {
+	margin-bottom: 10px;
+}
+
+#landscape {
+	text-align: center;
+}
+
+#landscape > img {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.section-separator {
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
