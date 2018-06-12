@@ -153,6 +153,10 @@ blockquote {
     left: 3px;
 }
 
+.team {
+	margin-top: 20px;
+}
+
 .team .badge-warning {
 	font-size: 16px;
 }
@@ -222,6 +226,10 @@ i.fa-linkedin {
 .tags {
 	padding: 10px;
 	text-transform: uppercase;
+}
+
+.card-img-top {
+	margin-top: 10px;
 }
 
 @media only screen and (max-width: 700px) { 
