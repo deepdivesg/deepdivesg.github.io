@@ -211,6 +211,16 @@ a:hover  > .badge-warning{
 	margin-bottom: 40px;
 }
 
+#goal {
+	text-align: center;
+}
+
+i.fa-lightbulb {
+	font-size: 5em;
+	margin: 20px;
+	color: #ffb500;
+}
+
 i.fa-linkedin {
 	font-size: 1.3em;
     vertical-align: middle;
