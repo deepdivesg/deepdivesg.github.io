@@ -69,11 +69,6 @@ blockquote {
 	padding: 0px;
 }
 
-#contact > #team {
-	margin: 0px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
 
 #banner {
 	background: #135ca54a;
@@ -158,22 +153,20 @@ blockquote {
     left: 3px;
 }
 
-.badge-warning {
-/*	padding: 10px;
-	margin-left: 20px;*/
+.team .badge-warning {
 	font-size: 16px;
 }
 
-.badge-warning:hover {
+.team .badge-warning:hover {
 	background-color: #30323D;
 }
 
-a > .badge-warning, a:visited  > .badge-warning {
+.team a > .badge-warning, .team a:visited  > .badge-warning {
 	color: #222;
 	text-decoration: none;
 }
 
-a:hover  > .badge-warning{
+.team a:hover  > .badge-warning{
 	color: #FFF;
 	text-decoration: none;
 }
@@ -224,4 +217,9 @@ i.fa-lightbulb {
 i.fa-linkedin {
 	font-size: 1.3em;
     vertical-align: middle;
+}
+
+.tags {
+	padding: 10px;
+	text-transform: uppercase;
 }
