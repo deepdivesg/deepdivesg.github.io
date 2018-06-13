@@ -73,6 +73,7 @@ blockquote {
 #banner {
 	background: #135ca54a;
 	border-radius: 0px;
+	margin-right: 0;
 }
 
 #banner h1 {
@@ -239,10 +240,6 @@ i.fa-linkedin {
 }
 
 @media only screen and (max-width: 576px) { 
-
-	body {
-		overflow-x: hidden;
-	}
 
 	#banner-caption {
 		margin-top: -14px;
