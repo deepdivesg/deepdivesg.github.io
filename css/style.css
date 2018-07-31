@@ -271,8 +271,7 @@ i.fa-twitter-square {
 #big {
 	text-align: center;
 	background: #F9B847;
-	padding: 20px;
-	height: 300px;
+	padding: 40px;
 }
 
 #big img {
@@ -280,10 +279,20 @@ i.fa-twitter-square {
 	margin: 40px auto;  
 }
 
+#big span {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300 !important;
+	font-size: 36px;
+}
+
 #graphic {
 	color: #FFF;
 	text-align: center;
 	padding: 40px;
+}
+
+#graphic img {
+    width: 50%;
 }
 
 
