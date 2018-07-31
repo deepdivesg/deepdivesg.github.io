@@ -312,4 +312,16 @@ i.fa-twitter-square {
 		display: none;
 	}
 
+	#big img {
+		width: 100%;
+	}
+
+	#graphic img {
+		width: 100%
+	}
+
+	#big span {
+		font-size: 24px;
+	}
+
 }
